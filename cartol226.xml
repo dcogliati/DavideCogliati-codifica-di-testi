@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cartol.xsl"?>
+<!DOCTYPE teiCorpus SYSTEM "Untitled-1.dtd">
+
+<teiCorpus xml:id="cart226" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+                <titleStmt> <!-- obbligatorio: edizione digitale e responsabili -->
+                    <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                    <title> Progetto di Codifica di Testi </title>
+                    
+                    <!-- TRASCRITTORE nome e cognome-->
+                    <respStmt>
+                        <resp>Trascritto da</resp>
+                        <name xml:id="DC">Davide Cogliati </name>
+                     
+                    </respStmt>
+                    
+                    <!-- ENTE DI APPARTENENZA -->
+                    <respStmt xml:id="ente">
+                        <resp>Ente di Appartenenza</resp>
+                        <name type="comune" xml:id="SP">Comune della Spezia</name>
+                    </respStmt>
+                    
+                </titleStmt>
+                
+                <editionStmt>
+                    <edition> Studente di Codifica di Testi, corso di laurea in Informatica Umanistica, Università di Pisa
+                        <!-- COMPILAZIONE -->
+                        <date>2021</date>
+                    </edition>
+                    
+                    <!-- NOME COMPILATORE -->
+                    <respStmt>
+                        <resp>Codificato da</resp>
+                        <name xml:id="TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    
+                    <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                    <respStmt>
+                        <resp>Compilatore</resp>
+                        <name ref="#TC">Tommaso Castagneto, </name>
+                        <name xml:id="D">Davide Cogliati</name>
+                    </respStmt>
+                    
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <name xml:id="GP">Giacomo Paolicchi, </name>
+                        <name xml:id="ES">Enrica Salvatori</name>
+                    </respStmt>
+                    
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name xml:id="ER">E. Ratti</name>
+                    </respStmt>
+                    
+                </editionStmt>
+                
+                <publicationStmt> <!-- Obbligatorio: modalità di pubblicazione digitale -->
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability>
+                        <p>Disponibile solo su licenza</p>
+                    </availability>
+                    <date when="2021">2021</date>
+                    <distributor>LabCD</distributor>
+                    <address>
+                        <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                        <addrLine>Pisa</addrLine>
+                    </address>
+                </publicationStmt>
+                
+                <sourceDesc> <!-- obbligatorio per fileDesc, fornisce informazioni sulla fonte materiale  -->
+                    <bibl>
+                        <interp> Due cartoline scritte da Giovanni Coliola. </interp>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <country> Italia </country>
+                            <settlement> La Spezia (SP) </settlement>
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerra Mondiale</repository>
+                        </msIdentifier>
+                    </msDesc>              
+                </sourceDesc>
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    <title type="custom" resp="#ES" xml:id="titolo226">Guiglia - Stazione Climatica - Panorama</title>
+                    <author ref="#OT">Giovanni</author>
+                    <date when="1918">1918</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_226_001/002</idno>
+                    </msIdentifier>
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                </support>
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buona, non sono necessari interventi di restauro.</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <!-- NOMI -->
+                <listPerson>
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation>[maggiore]</occupation>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Guiglia</placeName>
+                        <settlement type="località">Città</settlement>
+                        <district type="comune">Guiglia</district>
+                        <district type="provincia">..</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni Coliola</persName>
+                    <placeName ref="#G"><unclear reason="illeggible">Guiglia</unclear></placeName>
+                    <date type="writing" when="1918-08-06">1918/08/06</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term type="descr1">Cartolina Artistica </term>
+                    <term type="descr2">Guiglia - Stazione Climatica - Panorama</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="it-IT">Italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+<!-- DEFINIZIONE -->
+<text type="cartolina"  xml:lang="it">
+<!-- TRASCRIZIONE -->
+<body>
+<div type="fronte">
+<figure xml:id="testo226">
+    <figDesc>Panorama dalla Stazione Climatica con vista sulla città di Guglia</figDesc>
+    <head> Guiglia - Stazione Climatica - Panorama </head>
+    <note n="1"> sul retro troviamo due francobolli da 5 centesimi</note>
+    <note n="2"> Sul retro troviamo l'indirizzo di spedizione e il timbro postale</note>
+</figure>
+
+</div>
+
+<div type="retro">
+<div type="codice"> 
+    <p>
+        <num type="cardinal">
+            <idno> 226 </idno>
+        </num>
+    </p>
+</div>
+<div type="message" xml:id="part11" next="#part2">
+    <!-- data e luogo -->
+    <opener facs="#luogo_data_226">
+        <dateline>
+            <placeName>Guiglia</placeName>
+            <date when="19180806"> 6 Agosto <choice><abbr>18</abbr><expan>1918</expan></choice></date>
+        </dateline>
+        
+        <lb facs="#primariga_226"/><salute><persName ref="#OT"><forename>Oliva</forename></persName> <unclear reason="illeggible">...</unclear><pc type="comma">,</pc></salute>quanti
+    </opener>
+    <!--corpo della cartolina-->
+    <p>
+        <lb facs="#secondariga_226"/> mane ci siamo alzati per 
+        <lb facs="#terzariga_226"/> Tempo a gridare ma alla ma<unclear reason="illeggible">...</unclear>
+        <lb facs="#quartariga_226"/> <unclear reason="illeggible">...</unclear>te per<unclear reason="illeggible">...</unclear><pc>.</pc> D’un simile tratto par
+        <lb facs="#quintariga_226"/> <unclear reason="illeggible">...</unclear> e <unclear reason="illeggible">...</unclear><unclear reason="illeggible">...</unclear>.. dalle 
+        <lb facs="#sestariga_226"/> vette dei monti<pc>.</pc> Abbiamo 
+        <lb facs="#settimariga_226"/> camminato tanto e siamo 
+        <lb facs="#ottavariga_226"/>giunti <unclear reason="illeggible">...</unclear> stanchi <unclear reason="illeggible">...</unclear>
+        <lb facs="#nonariga_226"/><unclear reason="illeggible">...</unclear> Si stenti <unclear reason="illeggible">...</unclear>
+        <lb facs="#decimariga_226"/>Il mio pensiero è <unclear reason="illeggible">...</unclear> te
+        <lb facs="#undicesimariga_226"/><persName ref="#GC"><forename>Giovannino</forename></persName><pc>.</pc>
+    </p>
+</div>
+</div>
+
+</body>
+</text>
+<facsimile>
+
+<!--retro-->
+<surface xml:id="fronte226">
+<graphic url='7694-226R.jpg' width='auto' height='auto' />
+</surface></facsimile>
+<facsimile>
+
+<!--retro-->
+<surface xml:id="retro226">
+<graphic url='7694-226F.jpg' width='800' height='511' />
+<zone xml:id="luogo_data_226" lrx="420" lry="366" ulx="447" uly="30" />
+<zone xml:id="primariga_226" lrx="456" lry="499" ulx="506" uly="21" />
+<zone xml:id="secondariga_226" lrx="486" lry="488" ulx="519" uly="19" />
+<zone xml:id="terzariga_226" lrx="514" lry="496" ulx="555" uly="15" />
+<zone xml:id="quartariga_226" lrx="549" lry="503" ulx="592" uly="18" />
+<zone xml:id="quintariga_226" lrx="590" lry="507" ulx="633" uly="10" />
+<zone xml:id="sestariga_226" lrx="623" lry="510" ulx="676" uly="26" />
+<zone xml:id="settimariga_226" lrx="655" lry="482" ulx="704" uly="28" />
+<zone xml:id="ottavariga_226" lrx="693" lry="488" ulx="730" uly="36" />
+<zone xml:id="nonariga_226" lrx="719" lry="442" ulx="762" uly="50" />
+<zone xml:id="decimariga_226" lrx="748" lry="455" ulx="790" uly="55" />
+<zone xml:id="undicesimariga_226" lrx="781" lry="463" ulx="800" uly="188" />
+</surface>
+</facsimile>
+</teiCorpus> 
