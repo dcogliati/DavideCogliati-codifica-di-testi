@@ -1,0 +1,168 @@
+html {
+    background-color: #5c574e;
+ }
+body  {
+    font-family : 'Source Serif Pro', serif;
+    text-align  : justify;
+    margin:5%;
+}
+
+#introduzione{
+    height : auto;
+    margin : 4%;
+    line-height: 17px;
+    line-break: strict;
+}
+#titolo {
+    font-family : 'Arial';
+    font-size : 70px;
+    text-align: center;
+    text-shadow: 3px 4px #bdb873;
+    color: #7A787C;
+    margin:4%;
+    text-decoration: solid;
+}
+h2 {
+    font-family  : 'Arial';
+    font-size : 35px;
+    text-align  : center;
+    color: #bdb873;
+    margin-top: 150pt;
+}
+
+nav {
+    width : 100%;
+    opacity  : 0.6;
+}
+
+ul {
+    margin : 4%;
+    padding  : 0;
+    list-style  : none;
+    display : flex;
+    justify-content  : center;
+    z-index  : 10;
+}
+ul li {
+    text-align  : center;
+    flex-grow: 1;
+    transition-duration : 1s;
+    background-color  : #bdb873;
+}
+ul li:hover {
+    
+    background-color: #69693f;
+}
+ul li a {
+    display : block;
+    padding : 20px;
+    text-decoration : none;
+    font-size : 24px;
+    transition-property : color;
+    color  : black;
+    font-family  : 'Source Serif Pro', serif;
+    font-weight : bold;
+    transition-duration: 1s;
+}
+ul li a:hover {
+    color  : #000000
+}
+
+.informazioni {
+    text-align: center;
+}
+.luogo{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    color: #bdb873;
+    font-size: 20px
+}
+.testo {
+    line-height: 15px;
+    padding-left: 2%;
+    float: right;
+    line-break: auto;
+    height: auto;
+    width: auto;
+    margin-top: 5%;
+    background-color: rgba(241, 236, 236, 0.842);
+}
+.testofronte {
+    line-height: 15px;
+    padding-left: 2%;
+    float: right;
+    line-break: auto;
+    height: auto;
+    width: auto;
+    margin-top: 5%;
+    background-color: rgba(241, 236, 236, 0.842);
+}
+.persone {
+    display: flex;
+    justify-content: center;
+    border-color: #484910;
+    border-style: solid;
+    background-color:#bdb873;
+    border-radius: 10%;
+}
+.persona {
+    margin-left: 5%;
+    margin-right: 5%
+}
+.corrispondenze {
+    display: flex;
+    justify-content: center;
+    border-color: #484910;
+    border-style: solid;
+    background-color:#bdb873;
+    border-radius: 10%;
+}
+
+.destinatario {
+    margin-left: 5%;
+    margin-right: 5%
+}
+.descr {
+    text-align: center;
+}
+.lingua{
+    text-align: center;
+}
+.mittente {
+    margin-left: 5%;
+    margin-right: 5%
+}
+.fronte {
+    text-align: center;
+}
+.archivio {
+    float: right;
+}
+img {
+    width                       : 90%;
+    border-color: #484910;
+    border-style: solid;
+    border-width: medium;
+    padding: 1%
+}
+.imgfronte{
+    float:left;
+    margin-left: 5%
+}
+
+.immagine {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+
+}
+
+
+#idk{
+    color: red;
+    font-size:70%;
+
+}
