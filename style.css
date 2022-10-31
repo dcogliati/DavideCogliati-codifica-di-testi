@@ -1,0 +1,231 @@
+
+
+body{
+  height: 820%;
+    background-color:black;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    padding-bottom: 10%;
+    font-weight: 800;
+    border-style: solid;
+    border-width: 2px;
+    border-color:red yellowgreen ;
+    
+}
+/*.info{
+    color: black;
+    font-style: oblique;
+    background: rgb(194, 65, 121);
+background: linear-gradient(90deg,  rgb(147, 230, 102) 0%, rgb(125, 106, 230) 40%, rgb(125, 106, 230) 60%, rgb(147, 230, 102) 100%);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+     
+    border-radius: 25%;
+}*/
+#introduzione{  padding-left: 20%;
+    padding-right:20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-style: oblique;
+    font-size: 130%;
+    font-weight: 800;
+color: white;
+background-color: #000;
+
+}
+
+.persone{
+margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    font-size: 125%;
+    
+}
+
+.fronte{
+    max-width:70%;
+   margin-left: 15%;
+   font-style: italic;
+   font-family: 'Segoe UI';
+}
+/*
+.testo p{
+font-style:italic;
+font-size: large;
+background: rgb(238,174,202);
+background: linear-gradient(90deg, rgb(147, 230, 102) 0%, rgb(125, 106, 230) 40%, rgb(125, 106, 230) 60%, rgb(147, 230, 102) 100%);
+margin-left: 20%;
+margin-right: 20%;
+padding-bottom: 3%;
+padding-top:1%;
+border-radius: 30%;
+}
+.testofronte p{
+    font-style:italic;
+    font-size: large;
+    background: rgb(238,174,202);
+background:  linear-gradient(90deg, rgb(147, 230, 102) 0%, rgb(125, 106, 230) 40%, rgb(125, 106, 230) 60%, rgb(147, 230, 102) 100%);
+    margin-left: 20%;
+margin-right: 20%;
+padding-bottom: 3%;
+padding-top: 1%;
+border-radius: 30%;
+
+    }*/
+    .testo p:hover{
+        font-size: 150%;
+        
+    }
+    .testofronte p:hover{
+        font-size: 150%;
+     
+    }
+
+
+ img {
+    width:auto;
+    margin-top: 1%;
+    
+  }
+  
+  
+ .info {
+    position: relative;
+    margin: 5% auto 0;
+    width: 80%;
+    height: auto;
+    background: black;
+    color: white;
+    padding: 3%;
+    
+  }
+  
+  .info:before, .info:after {
+    content: '';
+    position: absolute;
+    left: -4px;
+    top: -4px;
+    background: radial-gradient( #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+      #0000ff, #00ff00,#ffff00, #ff0000);
+    background-size: 400%;
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    z-index: -1;
+    animation: steam 20s linear infinite;
+  }
+  
+  @keyframes steam {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .info:after {
+    filter: blur(50px);
+  }
+
+
+
+
+  .testo p{
+    position: relative;
+    margin: 5% auto 0;
+    width: 80%;
+    height: auto;
+    background: linear-gradient(0deg, #000, #272727);
+    color: white;
+    padding: 3%;
+    
+  }
+  
+  .testo p:before, .testo p:after {
+    content: '';
+    position: absolute;
+    left: -4px;
+    top: -4px;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+      #0000ff, #00ff00,#ffff00, #ff0000);
+    background-size: 400%;
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    z-index: -1;
+    animation: steam 20s linear infinite;
+  }
+  
+  @keyframes steam {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .testo p:after {
+    filter: blur(50px);
+  }
+
+
+  .testofronte p{
+    position: relative;
+    margin: 5% auto 0;
+    width: 80%;
+    height: auto;
+    background: linear-gradient(0deg, #000, #272727);
+    color: white;
+    padding: 3%;
+    
+  }
+  
+  .testofronte p:before, .testofronte p:after {
+    content: '';
+    position: absolute;
+    left: -4px;
+    top: -4px;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+      #0000ff, #00ff00,#ffff00, #ff0000);
+    background-size: 400%;
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    z-index: -1;
+    animation: steam 20s linear infinite;
+  }
+  
+  @keyframes steam {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .testofronte p:after {
+    filter: blur(50px);
+  }
+
+
+
+
+  
+ 
